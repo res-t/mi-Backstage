@@ -126,3 +126,94 @@ INSERT INTO `t_mi_type` VALUES ('93', '10', '毛巾/浴巾', '0', 'http://127.0.
 INSERT INTO `t_mi_type` VALUES ('94', '10', '米兔', '0', 'http://127.0.0.1:3000/img/mitu-80.jpg');
 INSERT INTO `t_mi_type` VALUES ('95', '10', '签字笔', '0', 'http://127.0.0.1:3000/img/qianzibi-80.jpg');
 INSERT INTO `t_mi_type` VALUES ('96', '10', '笔记本', '0', 'http://127.0.0.1:3000/img/duoyongbijiben-80.jpg');
+
+/*
+  手机电话卡
+*/
+INSERT INTO `t_mi_type` VALUES ('97', '1', '小米8青春版', '0', 'http://127.0.0.1:3000/img/qingchun-80.png');
+INSERT INTO `t_mi_type` VALUES ('98', '1', '小米8 屏幕指纹版', '0', 'http://127.0.0.1:3000/img/pingmu-80.png');
+INSERT INTO `t_mi_type` VALUES ('99', '1', '小米8', '0', 'http://127.0.0.1:3000/img/m8-80.png');
+INSERT INTO `t_mi_type` VALUES ('100', '1', '小米MIX 2', '0', 'http://127.0.0.1:3000/img/m8se-80.png');
+INSERT INTO `t_mi_type` VALUES ('101', '1', '小米8青春版', '0', 'http://127.0.0.1:3000/img/mix2s80-80white.png');
+INSERT INTO `t_mi_type` VALUES ('102', '1', '小米MAX3', '0', 'http://127.0.0.1:3000/img/max3-80-80.png');
+INSERT INTO `t_mi_type` VALUES ('103', '1', '小米6X', '0', 'http://127.0.0.1:3000/img/8080.jpg');
+INSERT INTO `t_mi_type` VALUES ('104', '1', '小米黑鲨游戏手机', '0', 'http://127.0.0.1:3000/img/heisha-80.png');
+INSERT INTO `t_mi_type` VALUES ('105', '1', '小米MAX2', '0', 'http://127.0.0.1:3000/img/mix2-80.png');
+INSERT INTO `t_mi_type` VALUES ('106', '1', '红米6', '0', 'http://127.0.0.1:3000/img/666666.png');
+INSERT INTO `t_mi_type` VALUES ('107', '1', '小米MAX2', '0', 'http://127.0.0.1:3000/img/max2_80.jpg');
+INSERT INTO `t_mi_type` VALUES ('108', '1', '红米6 Pro', '0', 'http://127.0.0.1:3000/img/6pro140-140.png');
+INSERT INTO `t_mi_type` VALUES ('109', '1', '红米6A', '0', 'http://127.0.0.1:3000/img/6AAAA.png');
+INSERT INTO `t_mi_type` VALUES ('110', '1', '红米Note5', '0', 'http://127.0.0.1:3000/img/note5-80-80.png');
+INSERT INTO `t_mi_type` VALUES ('112', '1', '红米S2', '0', 'http://127.0.0.1:3000/img/s2-80-80.pngg');
+INSERT INTO `t_mi_type` VALUES ('113', '1', '移动4G+专区', '0', 'http://127.0.0.1:3000/img/4g+.jpg');
+INSERT INTO `t_mi_type` VALUES ('114', '1', '对比手机', '0', 'http://127.0.0.1:3000/img/compare.jpg');
+INSERT INTO `t_mi_type` VALUES ('115', '1', '米粉卡 日租卡', '0', 'http://127.0.0.1:3000/img/mifenka-1.jpg');
+INSERT INTO `t_mi_type` VALUES ('116', '1', '小米移动 电话卡', '0', 'http://127.0.0.1:3000/img/mimobile.jpg');
+INSERT INTO `t_mi_type` VALUES ('117', '1', '手机上门维修', '0', 'http://127.0.0.1:3000/img/weixiu80-80.png');
+
+/*
+  电视盒子
+*/
+
+
+INSERT INTO `t_mi_type` VALUES ('118', '2', '米家激光投影电视', '0', 'http://127.0.0.1:3000/img/tv1400.png');
+INSERT INTO `t_mi_type` VALUES ('119', '2', '小米电视4C 40英寸', '0', 'http://127.0.0.1:3000/img/4c-40.jpg');
+INSERT INTO `t_mi_type` VALUES ('120', '2', '小米电视4s 65英寸', '0', 'http://127.0.0.1:3000/img/4s65.jpg');
+INSERT INTO `t_mi_type` VALUES ('121', '2', '小米电视4 75英寸', '0', 'http://127.0.0.1:3000/img/4s-75.jpg');
+INSERT INTO `t_mi_type` VALUES ('122', '2', '小米电视4A 32英寸', '0', 'http://127.0.0.1:3000/img/TV4A-32.png');
+INSERT INTO `t_mi_type` VALUES ('123', '2', '小米电视4A 40英寸', '0', 'http://127.0.0.1:3000/img/TV4A-40.png');
+
+
+
+
+
+
+INSERT INTO `t_mi_type` VALUES ('124', '2', '小米电视4A 43英寸青春版', '0', 'http://127.0.0.1:3000/img/TV4A-43QC.png');
+INSERT INTO `t_mi_type` VALUES ('125', '2', '小米电视4A 49英寸', '0', 'http://127.0.0.1:3000/img/TV4A-49.png');
+INSERT INTO `t_mi_type` VALUES ('126', '2', '小米电视4A 50英寸', '0', 'http://127.0.0.1:3000/img/TV4A-50.png');
+INSERT INTO `t_mi_type` VALUES ('127', '2', '小米电视4A 55英寸', '0', 'http://127.0.0.1:3000/img/4a50.png');
+INSERT INTO `t_mi_type` VALUES ('128', '2', '小米电视4A 65英寸', '0', 'http://127.0.0.1:3000/img/4A65.png');
+INSERT INTO `t_mi_type` VALUES ('129', '2', '小米电视4X 55英寸', '0', 'http://127.0.0.1:3000/img/TV4X-55.png');
+
+
+
+INSERT INTO `t_mi_type` VALUES ('130', '2', '小米电视4C 32英寸', '0', 'http://127.0.0.1:3000/img/TV4C-32.png');
+INSERT INTO `t_mi_type` VALUES ('131', '2', '小米电视4C 43英寸', '0', 'http://127.0.0.1:3000/img/TV4C-43.png');
+INSERT INTO `t_mi_type` VALUES ('132', '2', '小米电视4C 50英寸', '0', 'http://127.0.0.1:3000/img/TV4C-50.png');
+INSERT INTO `t_mi_type` VALUES ('133', '2', '小米电视4C 55英寸', '0', 'http://127.0.0.1:3000/img/TV4C-55.png');
+INSERT INTO `t_mi_type` VALUES ('134', '2', '小米电视 体育版', '0', 'http://127.0.0.1:3000/img/TVTYB.png');
+INSERT INTO `t_mi_type` VALUES ('135', '2', '小米电视4 55英寸', '0', 'http://127.0.0.1:3000/img/TV4-55.png');
+
+
+
+
+
+
+INSERT INTO `t_mi_type` VALUES ('130', '2', '小米电视4 65英寸', '0', 'http://127.0.0.1:3000/img/TV4-65.png');
+INSERT INTO `t_mi_type` VALUES ('131', '2', '小米电视4s 55英寸', '0', 'http://127.0.0.1:3000/img/TV4S-55Q.png');
+INSERT INTO `t_mi_type` VALUES ('132', '2', '小米电视4s 50英寸', '0', 'http://127.0.0.1:3000/img/TV4S-50.png');
+INSERT INTO `t_mi_type` VALUES ('133', '2', '小米电视4s 32英寸', '0', 'http://127.0.0.1:3000/img/TV4S-32.png');
+INSERT INTO `t_mi_type` VALUES ('134', '2', '小米盒子', '0', 'http://127.0.0.1:3000/img/hezibai480_80.jpg');
+
+
+/*
+  笔记本
+*/
+
+INSERT INTO `t_mi_type` VALUES ('135', '3', '小米笔记本 15.6', '0', 'http://127.0.0.1:3000/img/bijiben80.jpg');
+INSERT INTO `t_mi_type` VALUES ('136', '3', '小米笔记本 13.3', '0', 'http://127.0.0.1:3000/img/80x80.png');
+INSERT INTO `t_mi_type` VALUES ('137', '3', '小米笔记本 12.5', '0', 'http://127.0.0.1:3000/img/bijiben12.5.jpg');
+INSERT INTO `t_mi_type` VALUES ('138', '3', '小米游戏本', '0', 'http://127.0.0.1:3000/img/youxiben-80.jpg');
+INSERT INTO `t_mi_type` VALUES ('139', '3', '小米平板 ', '0', 'http://127.0.0.1:3000/img/pingban2.jpg');
+INSERT INTO `t_mi_type` VALUES ('140', '3', '键盘', '0', 'http://127.0.0.1:3000/img/yuemijianpan80.jpg');
+
+
+INSERT INTO `t_mi_type` VALUES ('141', '3', '鼠标/鼠标垫 ', '0', 'http://127.0.0.1:3000/img/wxsb80.png');
+INSERT INTO `t_mi_type` VALUES ('142', '3', '转接器 ', '0', 'http://127.0.0.1:3000/img/usbzjqggg80.jpg');
+INSERT INTO `t_mi_type` VALUES ('143', '3', '平板配件 ', '0', 'http://127.0.0.1:3000/img/xiaomipingbanpeijian80.jpg');
+INSERT INTO `t_mi_type` VALUES ('144', '3', '笔记本双肩背包 ', '0', 'http://127.0.0.1:3000/img/bijibenshuangjianbao80.jpg');
+INSERT INTO `t_mi_type` VALUES ('145', '3', '小米笔记本内胆包 ', '0', 'http://127.0.0.1:3000/img/neidanbao80.jpg');
+
+
+
+
