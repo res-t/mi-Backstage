@@ -8,4 +8,11 @@ router.get('/shoptitle',(req,res)=>{
           res.send(result);
      })
 })
+router.get('/phone',(req,res)=>{
+    var sql ="SELECT * FROM `t_mi_type` WHERE parent_id=1";
+    pool.query(sql,(err,result)=>{
+        if(err) throw err;
+        res.send(result);
+    })
+})
 module.exports =router;
