@@ -3,6 +3,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 /*引入路由模块*/
 const shoptitle = require('./router/index.js');
+const reg = require('./router/register.js');
 
 var app = express();
 var server = app.listen(3000,()=>{
@@ -21,3 +22,4 @@ app.use(bodyParser.urlencoded({extended:false}));
 app.use(express.static('public'))
 /*使用路由器来管理路由*/
 app.use('/',shoptitle);
+app.use('/',reg);
