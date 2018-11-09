@@ -55,9 +55,11 @@ router.post("/reg",(req,res)=>{
 
 })
 router.post('/login',(req,res)=>{
+    var phonereg=/^1[34578]\d{9}$/;
+    var pwdreg=/^\w{6,16}/;
     var $uphone =  req.body.uphone;
-    if(!$uphone){
-        res.send({code:401,msg:"手机号不能为空"});
+    if(!phonereg.test ($uphone)){
+        res.send({code:401,msg:"手机号格式错误"});
         return;
     }
     var $upwd = req.body.upwd;
@@ -76,8 +78,10 @@ router.post('/login',(req,res)=>{
     var sql = 'SELECT * FROM user_list WHERE phone=? AND upwd=?';
     pool.query(sql,[$uphone,$upwd],(err,result)=>{
         if(err) throw err;
+        console.log(result);
         if(result.length>0){
-            res.send({code:200,msg: '登录成功'});
+            res.send({code:200,msg: '登录成功,是否跳转到首页',data:result});
+
          }else{
              res.send({code:403, msg:'手机号或密码错误'});
             }
