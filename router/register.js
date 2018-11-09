@@ -54,7 +54,36 @@ router.post("/reg",(req,res)=>{
 
 
 })
+router.post('/login',(req,res)=>{
+    var $uphone =  req.body.uphone;
+    if(!$uphone){
+        res.send({code:401,msg:"手机号不能为空"});
+        return;
+    }
+    var $upwd = req.body.upwd;
+    if(!$upwd){
+        res.send({code:402,msg:"密码不能为空"});
+        return;
+    }
+    var mysql = "SELECT * FROM user_list WHERE phone=?"
+    pool.query(mysql,$uphone,(err,result)=>{
+        if(err) throw err;
+        if(result.length==0){
+            res.send({code:400,msg:"用户未注册是否跳转到注册页面？"});
+            return;
+        }
+    })
+    var sql = 'SELECT * FROM user_list WHERE phone=? AND upwd=?';
+    pool.query(sql,[$uphone,$upwd],(err,result)=>{
+        if(err) throw err;
+        if(result.length>0){
+            res.send({code:200,msg: '登录成功'});
+         }else{
+             res.send({code:403, msg:'手机号或密码错误'});
+            }
+    })
 
+})
 
 
 module.exports = router;
