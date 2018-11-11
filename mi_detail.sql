@@ -66,6 +66,131 @@ INSERT INTO mi_detail VALUES(NULL,101,'小米8 青春版','潮流镜面渐变色
     "a":["http://127.0.0.1:3000/img/pm-deatil2.jpg","梦幻蓝"],
     "b":["http://127.0.0.1:3000/img/pm-deatil2.jpg","深空灰"]
 }',now());
+INSERT INTO mi_detail VALUES(NULL,102,'小米Max 3','大屏大电量 震撼视界 / 5500mAh 电量，支持给多个设备充电 / AI 双摄超大像素，双核对焦 / 单手可握纤薄全金属机身',1599,
+'{
+    "a":["4GB+64GB 全网通",1599],
+    "b":["6GB+128GB 全网通",1899]
+
+}',
+'{
+    "a":["http://127.0.0.1:3000/img/pm-deatil2.jpg","黑色"],
+    "b":["http://127.0.0.1:3000/img/pm-deatil2.jpg","蓝色"],
+    "c":["http://127.0.0.1:3000/img/pm-deatil2.jpg","金色"]
+}',now());
+
+INSERT INTO mi_detail VALUES(NULL,103,'小米6X','轻薄美观的拍照手机 / 前置2000万“治愈系”自拍 / 后置2000万 AI双摄 / 标配骁龙660 AIE处理器',1199,
+'{
+    "a":["4GB+64GB 全网通",1199],
+    "b":["6GB+128GB 全网通",1649],
+    "c":["6GB+64GB 全网通",1549]
+
+}',
+'{
+    "a":["http://127.0.0.1:3000/img/pm-deatil2.jpg","赤焰红"],
+    "b":["http://127.0.0.1:3000/img/pm-deatil2.jpg","樱花粉"],
+    "c":["http://127.0.0.1:3000/img/pm-deatil2.jpg","冰川蓝"]
+}',now());
+INSERT INTO mi_detail VALUES(NULL,104,'黑鲨游戏手机 Helo','双液冷 / 独显+AMOLED全面屏 / Gamer Studio / X+1天线 / 骁龙845 / 正面双扬声器 / 标配二代手柄 / 一键Shark模式 / AI灯效',3499,
+'{
+    "a":["8GB+64GB 全网通",3499],
+    "b":["6GB+128GB 全网通",3199],
+    "c":["6GB+64GB 全网通",1549]
+
+}',
+'{
+    "a":["http://127.0.0.1:3000/img/pm-deatil2.jpg","黑色"]
+}',now());
+INSERT INTO mi_detail VALUES(NULL,105,'小米MIX 2','全面屏2.0，5.99"大屏 / 骁龙835旗舰处理器 / 4轴光学防抖 / 6模43频，全球频段',2699,
+'{
+    "a":["全陶瓷尊享版",2799]
+    
+}',
+'{
+    "a":["http://127.0.0.1:3000/img/pm-deatil2.jpg","黑色陶瓷"]
+}',now());
+INSERT INTO mi_detail VALUES(NULL,106,'红米6','小屏高性能的双摄手机 / 后置1200万 AI双摄 / 12nm八核处理器 / AI 人脸解锁',799,
+'{
+    "a":["4GB+64GB 全网通",799],
+    "b":["3GB+32GB 全网通",699]
+
+}',
+'{
+    "a":["http://127.0.0.1:3000/img/pm-deatil2.jpg","流沙金"],
+    "b":["http://127.0.0.1:3000/img/pm-deatil2.jpg","铂银灰"],
+    "c":["http://127.0.0.1:3000/img/pm-deatil2.jpg","樱花粉"],
+    "d":["http://127.0.0.1:3000/img/pm-deatil2.jpg","巴厘蓝"]
+
+}',now());
+INSERT INTO mi_detail VALUES(NULL,107,'小米Max 2','6.44''大屏 / 5300mAh 充电宝级的大电量 / 大像素相机 / 轻薄全金属 / ​4GB 大内存 / 骁龙八核处理器',1699,
+'{
+    "a":["4GB+64GB 全网通",1699],
+    "b":["6GB+128GB 全网通",1999]
+
+}',
+'{
+    "a":["http://127.0.0.1:3000/img/pm-deatil2.jpg","金色"]
+
+}',now());
+INSERT INTO mi_detail VALUES(NULL,108,' 红米6 Pro','高颜值大电量 红米旗舰 / 异形全面屏 19:9 FHD＋ / 后置1200万 AI双摄',869,
+'{
+    "a":["3GB+32GB 全网通",869],
+    "b":["4GB+32GB 全网通",999],
+    "c":["4GB+64GB 全网通",1199]
+
+}',
+'{
+    "a":["http://127.0.0.1:3000/img/pm-deatil2.jpg","流沙金"],
+    "b":["http://127.0.0.1:3000/img/pm-deatil2.jpg","曜石黑"],
+    "c":["http://127.0.0.1:3000/img/pm-deatil2.jpg","樱花粉"],
+    "d":["http://127.0.0.1:3000/img/pm-deatil2.jpg","巴厘蓝"],
+    "e":["http://127.0.0.1:3000/img/pm-deatil2.jpg","赤焰红"]
+     
+
+}',now());
+INSERT INTO mi_detail VALUES(NULL,109,' 红米6A','小屏高性能的双摄手机 / 后置1200万 AI双摄 / 12nm八核处理器 / AI 人脸解锁',599,
+'{
+    "a":["3GB+32GB 全网通",599],
+    "b":["2GB+16GB 全网通",549]
+
+}',
+'{
+    "a":["http://127.0.0.1:3000/img/pm-deatil2.jpg","流沙金"],
+    "b":["http://127.0.0.1:3000/img/pm-deatil2.jpg","铂银灰"],
+    "c":["http://127.0.0.1:3000/img/pm-deatil2.jpg","樱花粉"],
+    "d":["http://127.0.0.1:3000/img/pm-deatil2.jpg","巴厘蓝"]
+     
+
+}',now());
+INSERT INTO mi_detail VALUES(NULL,110,' 红米Note 5','红米国民品质，拍照专家 / AI双摄/5.99”全面屏 / 骁龙636处理器/4000mAh大电量 / 超过10000 项严苛检测，70%以上供应商与苹果供应商重叠',1129,
+'{
+    "a":["4GB+64GB 全网通",1129],
+    "b":["6GB+128GB 全网通",1399],
+    "C":["3GB+32GB 全网通",899]
+
+
+}',
+'{
+    "a":["http://127.0.0.1:3000/img/pm-deatil2.jpg","黑色"],
+    "b":["http://127.0.0.1:3000/img/pm-deatil2.jpg","玫瑰金"],
+    "c":["http://127.0.0.1:3000/img/pm-deatil2.jpg","金色"]
+     
+
+}',now());
+INSERT INTO mi_detail VALUES(NULL,112,' 红米自拍手机S2','前置1600万 2μm（4合1）超大像素智能美拍 / 后置1200万+500万 AI 双摄 / 骁龙625 八核处理器',999,
+'{
+    "a":["3GB+32GB 全网通",999],
+    "b":["4GB+64GB 全网通",1299]
+
+
+}',
+'{
+    "a":["http://127.0.0.1:3000/img/pm-deatil2.jpg","铂银灰"],
+    "b":["http://127.0.0.1:3000/img/pm-deatil2.jpg","香槟金"],
+    "c":["http://127.0.0.1:3000/img/pm-deatil2.jpg","玫瑰金"]
+     
+
+}',now());
+
 
 
 
@@ -119,5 +244,85 @@ INSERT INTO detail_img(deatil_id,img_url) VALUES
     http://127.0.0.1:3000/detail/pms_qc2.jpg,
     http://127.0.0.1:3000/detail/pms_qc3.jpg,
     http://127.0.0.1:3000/detail/pms_qc4.jpg
+    "
+);
+INSERT INTO detail_img(deatil_id,img_url) VALUES
+(6,
+    "
+    http://127.0.0.1:3000/detail/pms_max3-1.jpg,
+    http://127.0.0.1:3000/detail/pms_max3-2.jpg,
+    http://127.0.0.1:3000/detail/pms_max3-3.jpg,
+    http://127.0.0.1:3000/detail/pms_max3-4.jpg
+    "
+);
+INSERT INTO detail_img(deatil_id,img_url) VALUES
+(7,
+    "
+    http://127.0.0.1:3000/detail/pms_6x-1.jpg
+    "
+);
+INSERT INTO detail_img(deatil_id,img_url) VALUES
+(8,
+    "
+    http://127.0.0.1:3000/detail/pms_heisha-1.jpg,
+    http://127.0.0.1:3000/detail/pms_heisha-2.jpg,
+    http://127.0.0.1:3000/detail/pms_heisha-3.jpg,
+    http://127.0.0.1:3000/detail/pms_heisha-4.jpg
+    "
+);
+INSERT INTO detail_img(deatil_id,img_url) VALUES
+(9,
+    "
+    http://127.0.0.1:3000/detail/pms_mtz1.jpg,
+    http://127.0.0.1:3000/detail/pms_mtz2.jpg
+    "
+);
+
+INSERT INTO detail_img(deatil_id,img_url) VALUES
+(10,
+    "
+    http://127.0.0.1:3000/detail/pms_hong1.jpg,
+    http://127.0.0.1:3000/detail/pms_hong2.jpg,
+    http://127.0.0.1:3000/detail/pms_hong3.jpg,
+    http://127.0.0.1:3000/detail/pms_hong4.jpg,
+    "
+);
+INSERT INTO detail_img(deatil_id,img_url) VALUES
+(11,
+    "
+    http://127.0.0.1:3000/detail/pms_max2-1.jpg,
+    http://127.0.0.1:3000/detail/pms_max2-2.jpg
+    "
+);
+INSERT INTO detail_img(deatil_id,img_url) VALUES
+(12,
+    "
+    http://127.0.0.1:3000/detail/pms_pro-1.jpg,
+    http://127.0.0.1:3000/detail/pms_pro-2.jpg,
+    http://127.0.0.1:3000/detail/pms_pro-3.jpg,
+    http://127.0.0.1:3000/detail/pms_pro-4.jpg
+
+    "
+);
+INSERT INTO detail_img(deatil_id,img_url) VALUES
+(13,
+    "
+    http://127.0.0.1:3000/detail/pms_6A-4.jpg,
+    http://127.0.0.1:3000/detail/pms_6A-3.jpg,
+    http://127.0.0.1:3000/detail/pms_6A-2.jpg,
+    http://127.0.0.1:3000/detail/pms_6A-1.jpg
+
+    "
+);
+INSERT INTO detail_img(deatil_id,img_url) VALUES
+(14,
+    "
+    http://127.0.0.1:3000/detail/pms_node5.jpg
+    "
+);
+INSERT INTO detail_img(deatil_id,img_url) VALUES
+(15,
+    "
+    http://127.0.0.1:3000/detail/pms_s2-1.jpg
     "
 );
