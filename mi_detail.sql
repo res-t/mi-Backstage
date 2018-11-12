@@ -191,6 +191,224 @@ INSERT INTO mi_detail VALUES(NULL,112,' 红米自拍手机S2','前置1600万 2μ
 
 }',now());
 
+#dianshi
+INSERT INTO mi_detail VALUES(NULL,118,' 米家激光投影电视','超短焦 / 150 英寸超大投影尺寸 / ALPD 3.0 激光光源技术 / 色域宽、亮度高，3000：1 原生对比度 / 小米电视相同内容源',8999,
+'{
+    
+
+
+}',
+'{
+    "a":["http://127.0.0.1:3000/img/pm-deatil2.jpg","白色"]
+     
+
+}',now());
+INSERT INTO mi_detail VALUES(NULL,119,' 小米电视4C 40英寸','人工智能系统 / 海量片源 / FHD全高清 / 64位四核处理器 / 1GB+4GB内存',1199,
+'{
+    "a":["40英寸",1199]
+  
+
+}',
+'{
+    "a":["http://127.0.0.1:3000/img/pm-deatil2.jpg","黑色"]
+     
+
+}',now());
+INSERT INTO mi_detail VALUES(NULL,120,' 小米电视4S 65英寸','4KHDR / 人工智能语音 / 2GB+8GB大储存 / 金属机身 / 杜比音效 / 海量片源 / 蓝牙语音遥控器',4299,
+'{
+    "a":["65英寸", 4299]
+  
+
+}',
+'{
+    "a":["http://127.0.0.1:3000/img/pm-deatil2.jpg","枪灰"]
+     
+
+}',now());
+
+INSERT INTO mi_detail VALUES(NULL,121,'小米电视4 75英寸','11.4mm超薄机身／4K HDR 超高清画质／2GB + 32GB 超大内存／内置「小爱同学」／64位四核 高性能处理器',8999,
+'{
+    "a":["75英寸", 8999]
+}',
+'{
+    "a":["http://127.0.0.1:3000/img/pm-deatil2.jpg","黑色"]
+}',now());
+
+INSERT INTO mi_detail VALUES(NULL,122,'小米电视4A 32英寸','64位四核处理器 / 1GB+4GB大内存 / 高清液晶屏 / 第6代画质引擎 / 人工智能系统PatchWall / 轻至4kg',799,
+'{
+    "a":["32英寸", 799]
+}',
+'{
+    "a":["http://127.0.0.1:3000/img/pm-deatil2.jpg","黑色"]
+}',now());
+INSERT INTO mi_detail VALUES(NULL,123,'小米电视4A 32英寸','64位四核处理器 / 1GB+4GB大内存 / 高清液晶屏 / 第6代画质引擎 / 人工智能系统PatchWall / 轻至4kg',1199,
+'{
+    "a":["40英寸", 1199]
+}',
+'{
+    "a":["http://127.0.0.1:3000/img/pm-deatil2.jpg","黑色"]
+}',now());
+#dianshi2
+INSERT INTO mi_detail VALUES(NULL,124,' 米家激光投影电视','超短焦 / 150 英寸超大投影尺寸 / ALPD 3.0 激光光源技术 / 色域宽、亮度高，3000：1 原生对比度 / 小米电视相同内容源',8999,
+'{
+    
+
+
+}',
+'{
+    "a":["http://127.0.0.1:3000/img/pm-deatil2.jpg","白色"]
+     
+
+}',now());
+INSERT INTO mi_detail VALUES(NULL,125,' 小米电视4C 40英寸','人工智能系统 / 海量片源 / FHD全高清 / 64位四核处理器 / 1GB+4GB内存',1199,
+'{
+    "a":["40英寸",1199]
+  
+
+}',
+'{
+    "a":["http://127.0.0.1:3000/img/pm-deatil2.jpg","黑色"]
+     
+
+}',now());
+INSERT INTO mi_detail VALUES(NULL,126,' 小米电视4S 65英寸','4KHDR / 人工智能语音 / 2GB+8GB大储存 / 金属机身 / 杜比音效 / 海量片源 / 蓝牙语音遥控器',4299,
+'{
+    "a":["65英寸", 4299]
+  
+
+}',
+'{
+    "a":["http://127.0.0.1:3000/img/pm-deatil2.jpg","枪灰"]
+     
+
+}',now());
+
+INSERT INTO mi_detail VALUES(NULL,127,'小米电视4 75英寸','11.4mm超薄机身／4K HDR 超高清画质／2GB + 32GB 超大内存／内置「小爱同学」／64位四核 高性能处理器',8999,
+'{
+    "a":["75英寸", 8999]
+}',
+'{
+    "a":["http://127.0.0.1:3000/img/pm-deatil2.jpg","黑色"]
+}',now());
+
+INSERT INTO mi_detail VALUES(NULL,128,'小米电视4A 32英寸','64位四核处理器 / 1GB+4GB大内存 / 高清液晶屏 / 第6代画质引擎 / 人工智能系统PatchWall / 轻至4kg',799,
+'{
+    "a":["32英寸", 799]
+}',
+'{
+    "a":["http://127.0.0.1:3000/img/pm-deatil2.jpg","黑色"]
+}',now());
+INSERT INTO mi_detail VALUES(NULL,129,'小米电视4A 32英寸','64位四核处理器 / 1GB+4GB大内存 / 高清液晶屏 / 第6代画质引擎 / 人工智能系统PatchWall / 轻至4kg',1199,
+'{
+    "a":["40英寸", 1199]
+}',
+'{
+    "a":["http://127.0.0.1:3000/img/pm-deatil2.jpg","黑色"]
+}',now());
+
+#dianshi3
+INSERT INTO mi_detail VALUES(NULL,130,' 米家激光投影电视','超短焦 / 150 英寸超大投影尺寸 / ALPD 3.0 激光光源技术 / 色域宽、亮度高，3000：1 原生对比度 / 小米电视相同内容源',8999,
+'{
+    
+
+
+}',
+'{
+    "a":["http://127.0.0.1:3000/img/pm-deatil2.jpg","白色"]
+     
+
+}',now());
+INSERT INTO mi_detail VALUES(NULL,131,' 小米电视4C 40英寸','人工智能系统 / 海量片源 / FHD全高清 / 64位四核处理器 / 1GB+4GB内存',1199,
+'{
+    "a":["40英寸",1199]
+  
+
+}',
+'{
+    "a":["http://127.0.0.1:3000/img/pm-deatil2.jpg","黑色"]
+     
+
+}',now());
+INSERT INTO mi_detail VALUES(NULL,132,' 小米电视4S 65英寸','4KHDR / 人工智能语音 / 2GB+8GB大储存 / 金属机身 / 杜比音效 / 海量片源 / 蓝牙语音遥控器',4299,
+'{
+    "a":["65英寸", 4299]
+  
+
+}',
+'{
+    "a":["http://127.0.0.1:3000/img/pm-deatil2.jpg","枪灰"]
+     
+
+}',now());
+
+INSERT INTO mi_detail VALUES(NULL,133,'小米电视4 75英寸','11.4mm超薄机身／4K HDR 超高清画质／2GB + 32GB 超大内存／内置「小爱同学」／64位四核 高性能处理器',8999,
+'{
+    "a":["75英寸", 8999]
+}',
+'{
+    "a":["http://127.0.0.1:3000/img/pm-deatil2.jpg","黑色"]
+}',now());
+
+INSERT INTO mi_detail VALUES(NULL,134,'小米电视4A 32英寸','64位四核处理器 / 1GB+4GB大内存 / 高清液晶屏 / 第6代画质引擎 / 人工智能系统PatchWall / 轻至4kg',799,
+'{
+    "a":["32英寸", 799]
+}',
+'{
+    "a":["http://127.0.0.1:3000/img/pm-deatil2.jpg","黑色"]
+}',now());
+INSERT INTO mi_detail VALUES(NULL,135,'小米电视4A 32英寸','64位四核处理器 / 1GB+4GB大内存 / 高清液晶屏 / 第6代画质引擎 / 人工智能系统PatchWall / 轻至4kg',1199,
+'{
+    "a":["40英寸", 1199]
+}',
+'{
+    "a":["http://127.0.0.1:3000/img/pm-deatil2.jpg","黑色"]
+}',now());
+
+#dianshi4
+INSERT INTO mi_detail VALUES(NULL,136,' 米家激光投影电视','超短焦 / 150 英寸超大投影尺寸 / ALPD 3.0 激光光源技术 / 色域宽、亮度高，3000：1 原生对比度 / 小米电视相同内容源',8999,
+'{
+    
+
+
+}',
+'{
+    "a":["http://127.0.0.1:3000/img/pm-deatil2.jpg","白色"]
+     
+
+}',now());
+INSERT INTO mi_detail VALUES(NULL,37,' 小米电视4C 40英寸','人工智能系统 / 海量片源 / FHD全高清 / 64位四核处理器 / 1GB+4GB内存',1199,
+'{
+    "a":["40英寸",1199]
+  
+
+}',
+'{
+    "a":["http://127.0.0.1:3000/img/pm-deatil2.jpg","黑色"]
+     
+
+}',now());
+INSERT INTO mi_detail VALUES(NULL,138,' 小米电视4S 65英寸','4KHDR / 人工智能语音 / 2GB+8GB大储存 / 金属机身 / 杜比音效 / 海量片源 / 蓝牙语音遥控器',4299,
+'{
+    "a":["65英寸", 4299]
+  
+
+}',
+'{
+    "a":["http://127.0.0.1:3000/img/pm-deatil2.jpg","枪灰"]
+     
+
+}',now());
+
+INSERT INTO mi_detail VALUES(NULL,139,'小米电视4 75英寸','11.4mm超薄机身／4K HDR 超高清画质／2GB + 32GB 超大内存／内置「小爱同学」／64位四核 高性能处理器',8999,
+'{
+    "a":["75英寸", 8999]
+}',
+'{
+    "a":["http://127.0.0.1:3000/img/pm-deatil2.jpg","黑色"]
+}',now());
+
+
+
 
 
 
@@ -326,3 +544,204 @@ INSERT INTO detail_img(deatil_id,img_url) VALUES
     http://127.0.0.1:3000/detail/pms_s2-1.jpg
     "
 );
+#dianshi
+INSERT INTO detail_img(deatil_id,img_url) VALUES
+(16,
+    "
+    http://127.0.0.1:3000/detail/pms_JG-1.jpg,
+    http://127.0.0.1:3000/detail/pms_JG-2.jpg,
+    http://127.0.0.1:3000/detail/pms_JG-3.jpg,
+    http://127.0.0.1:3000/detail/pms_JG-4.jpg,
+    "
+);
+
+INSERT INTO detail_img(deatil_id,img_url) VALUES
+(17,
+    "
+    http://127.0.0.1:3000/detail/pms_Tv40-1.jpg,
+    http://127.0.0.1:3000/detail/pms_Tv40-2.jpg,
+    http://127.0.0.1:3000/detail/pms_Tv40-3.jpg
+    "
+);
+INSERT INTO detail_img(deatil_id,img_url) VALUES
+(18,
+    "
+    http://127.0.0.1:3000/detail/pms_4s65-1.jpg,
+    http://127.0.0.1:3000/detail/pms_4s65-2.jpg,
+    http://127.0.0.1:3000/detail/pms_4s65-3.jpg
+    "
+);
+
+INSERT INTO detail_img(deatil_id,img_url) VALUES
+(19,
+    "
+    http://127.0.0.1:3000/detail/pms_tv4-1.jpg,
+    http://127.0.0.1:3000/detail/pms_tv4-2.jpg,
+    http://127.0.0.1:3000/detail/pms_tv4-3.jpg
+    "
+);
+INSERT INTO detail_img(deatil_id,img_url) VALUES
+(20,
+    "
+    http://127.0.0.1:3000/detail/pms_4a32-1.jpg,
+    http://127.0.0.1:3000/detail/pms_4a32-2.jpg,
+    http://127.0.0.1:3000/detail/pms_4a32-3.jpg,
+    http://127.0.0.1:3000/detail/pms_4a32-4.jpg
+    "
+);
+INSERT INTO detail_img(deatil_id,img_url) VALUES
+(21,
+    "
+    http://127.0.0.1:3000/detail/pms_4a32-1.jpg,
+    http://127.0.0.1:3000/detail/pms_4a32-2.jpg,
+    http://127.0.0.1:3000/detail/pms_4a32-3.jpg,
+    http://127.0.0.1:3000/detail/pms_4a32-4.jpg
+    "
+);
+
+#dianshi2
+INSERT INTO detail_img(deatil_id,img_url) VALUES
+(22,
+    "
+    http://127.0.0.1:3000/detail/pms_JG-1.jpg,
+    http://127.0.0.1:3000/detail/pms_JG-2.jpg,
+    http://127.0.0.1:3000/detail/pms_JG-3.jpg,
+    http://127.0.0.1:3000/detail/pms_JG-4.jpg,
+    "
+);
+
+INSERT INTO detail_img(deatil_id,img_url) VALUES
+(23,
+    "
+    http://127.0.0.1:3000/detail/pms_Tv40-1.jpg,
+    http://127.0.0.1:3000/detail/pms_Tv40-2.jpg,
+    http://127.0.0.1:3000/detail/pms_Tv40-3.jpg
+    "
+);
+INSERT INTO detail_img(deatil_id,img_url) VALUES
+(24,
+    "
+    http://127.0.0.1:3000/detail/pms_4s65-1.jpg,
+    http://127.0.0.1:3000/detail/pms_4s65-2.jpg,
+    http://127.0.0.1:3000/detail/pms_4s65-3.jpg
+    "
+);
+
+INSERT INTO detail_img(deatil_id,img_url) VALUES
+(25,
+    "
+    http://127.0.0.1:3000/detail/pms_tv4-1.jpg,
+    http://127.0.0.1:3000/detail/pms_tv4-2.jpg,
+    http://127.0.0.1:3000/detail/pms_tv4-3.jpg
+    "
+);
+INSERT INTO detail_img(deatil_id,img_url) VALUES
+(26,
+    "
+    http://127.0.0.1:3000/detail/pms_4a32-1.jpg,
+    http://127.0.0.1:3000/detail/pms_4a32-2.jpg,
+    http://127.0.0.1:3000/detail/pms_4a32-3.jpg,
+    http://127.0.0.1:3000/detail/pms_4a32-4.jpg
+    "
+);
+INSERT INTO detail_img(deatil_id,img_url) VALUES
+(27,
+    "
+    http://127.0.0.1:3000/detail/pms_4a32-1.jpg,
+    http://127.0.0.1:3000/detail/pms_4a32-2.jpg,
+    http://127.0.0.1:3000/detail/pms_4a32-3.jpg,
+    http://127.0.0.1:3000/detail/pms_4a32-4.jpg
+    "
+);
+#dianshi3
+INSERT INTO detail_img(deatil_id,img_url) VALUES
+(28,
+    "
+    http://127.0.0.1:3000/detail/pms_JG-1.jpg,
+    http://127.0.0.1:3000/detail/pms_JG-2.jpg,
+    http://127.0.0.1:3000/detail/pms_JG-3.jpg,
+    http://127.0.0.1:3000/detail/pms_JG-4.jpg,
+    "
+);
+
+INSERT INTO detail_img(deatil_id,img_url) VALUES
+(29,
+    "
+    http://127.0.0.1:3000/detail/pms_Tv40-1.jpg,
+    http://127.0.0.1:3000/detail/pms_Tv40-2.jpg,
+    http://127.0.0.1:3000/detail/pms_Tv40-3.jpg
+    "
+);
+INSERT INTO detail_img(deatil_id,img_url) VALUES
+(30,
+    "
+    http://127.0.0.1:3000/detail/pms_4s65-1.jpg,
+    http://127.0.0.1:3000/detail/pms_4s65-2.jpg,
+    http://127.0.0.1:3000/detail/pms_4s65-3.jpg
+    "
+);
+
+INSERT INTO detail_img(deatil_id,img_url) VALUES
+(31,
+    "
+    http://127.0.0.1:3000/detail/pms_tv4-1.jpg,
+    http://127.0.0.1:3000/detail/pms_tv4-2.jpg,
+    http://127.0.0.1:3000/detail/pms_tv4-3.jpg
+    "
+);
+INSERT INTO detail_img(deatil_id,img_url) VALUES
+(32,
+    "
+    http://127.0.0.1:3000/detail/pms_4a32-1.jpg,
+    http://127.0.0.1:3000/detail/pms_4a32-2.jpg,
+    http://127.0.0.1:3000/detail/pms_4a32-3.jpg,
+    http://127.0.0.1:3000/detail/pms_4a32-4.jpg
+    "
+);
+INSERT INTO detail_img(deatil_id,img_url) VALUES
+(33,
+    "
+    http://127.0.0.1:3000/detail/pms_4a32-1.jpg,
+    http://127.0.0.1:3000/detail/pms_4a32-2.jpg,
+    http://127.0.0.1:3000/detail/pms_4a32-3.jpg,
+    http://127.0.0.1:3000/detail/pms_4a32-4.jpg
+    "
+);
+#dianshi4
+INSERT INTO detail_img(deatil_id,img_url) VALUES
+(34,
+    "
+    http://127.0.0.1:3000/detail/pms_JG-1.jpg,
+    http://127.0.0.1:3000/detail/pms_JG-2.jpg,
+    http://127.0.0.1:3000/detail/pms_JG-3.jpg,
+    http://127.0.0.1:3000/detail/pms_JG-4.jpg,
+    "
+);
+
+INSERT INTO detail_img(deatil_id,img_url) VALUES
+(35,
+    "
+    http://127.0.0.1:3000/detail/pms_Tv40-1.jpg,
+    http://127.0.0.1:3000/detail/pms_Tv40-2.jpg,
+    http://127.0.0.1:3000/detail/pms_Tv40-3.jpg
+    "
+);
+INSERT INTO detail_img(deatil_id,img_url) VALUES
+(36,
+    "
+    http://127.0.0.1:3000/detail/pms_4s65-1.jpg,
+    http://127.0.0.1:3000/detail/pms_4s65-2.jpg,
+    http://127.0.0.1:3000/detail/pms_4s65-3.jpg
+    "
+);
+
+INSERT INTO detail_img(deatil_id,img_url) VALUES
+(37,
+    "
+    http://127.0.0.1:3000/detail/pms_tv4-1.jpg,
+    http://127.0.0.1:3000/detail/pms_tv4-2.jpg,
+    http://127.0.0.1:3000/detail/pms_tv4-3.jpg
+    "
+);
+
+
