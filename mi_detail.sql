@@ -745,3 +745,97 @@ INSERT INTO detail_img(deatil_id,img_url) VALUES
 );
 
 
+CREATE  TABLE shop_list(
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    parent_id INT COMMENT '大类id',
+    title VARCHAR(128),
+    price BIGINT(20) COMMENT '单价',
+    big_img VARCHAR(128),
+    small_img VARCHAR(128)
+);
+INSERT INTO shop_list VALUES
+(NULL,13,'净水器滤芯PP棉',59,"http://127.0.0.1:3000/img/pms_jinshuiqi200x200.jpg",'http://127.0.0.1:3000/img/pms_reshuqi!34x34.jpg');
+INSERT INTO shop_list VALUES
+(NULL,13,'小米净水器滤芯 前置活性炭',69,"http://127.0.0.1:3000/detail/pms_lvxin2.jpg",'http://127.0.0.1:3000/detail/pms_sml-1.jpg');
+INSERT INTO shop_list VALUES
+(NULL,13,'小米净水器滤芯 反渗透',499,"http://127.0.0.1:3000/detail/pms_499.jpg",'http://127.0.0.1:3000/detail/pms_sml499.jpg');
+INSERT INTO shop_list VALUES
+(NULL,13,'小米净水器滤芯 后置活性炭',69,"http://127.0.0.1:3000/detail/pms_69.jpg",'http://127.0.0.1:3000/img/pms_reshuqi!34x34.jpg');
+
+
+INSERT INTO shop_list VALUES
+(NULL,13,'净水器滤芯PP棉',59,"http://127.0.0.1:3000/img/pms_jinshuiqi200x200.jpg",'http://127.0.0.1:3000/img/pms_reshuqi!34x34.jpg');
+INSERT INTO shop_list VALUES
+(NULL,13,'小米净水器滤芯 前置活性炭',69,"http://127.0.0.1:3000/detail/pms_lvxin2.jpg",'http://127.0.0.1:3000/detail/pms_sml-1.jpg');
+INSERT INTO shop_list VALUES
+(NULL,13,'小米净水器滤芯 反渗透',499,"http://127.0.0.1:3000/detail/pms_499.jpg",'http://127.0.0.1:3000/detail/pms_sml499.jpg');
+INSERT INTO shop_list VALUES
+(NULL,13,'小米净水器滤芯 后置活性炭',69,"http://127.0.0.1:3000/detail/pms_69.jpg",'http://127.0.0.1:3000/img/pms_reshuqi!34x34.jpg');
+INSERT INTO shop_list VALUES
+(NULL,13,'净水器滤芯PP棉',59,"http://127.0.0.1:3000/img/pms_jinshuiqi200x200.jpg",'http://127.0.0.1:3000/img/pms_reshuqi!34x34.jpg');
+INSERT INTO shop_list VALUES
+(NULL,13,'小米净水器滤芯 前置活性炭',69,"http://127.0.0.1:3000/detail/pms_lvxin2.jpg",'http://127.0.0.1:3000/detail/pms_sml-1.jpg');
+INSERT INTO shop_list VALUES
+(NULL,13,'小米净水器滤芯 反渗透',499,"http://127.0.0.1:3000/detail/pms_499.jpg",'http://127.0.0.1:3000/detail/pms_sml499.jpg');
+INSERT INTO shop_list VALUES
+(NULL,13,'小米净水器滤芯 后置活性炭',69,"http://127.0.0.1:3000/detail/pms_69.jpg",'http://127.0.0.1:3000/img/pms_reshuqi!34x34.jpg');
+#热水器
+INSERT INTO shop_list VALUES
+(NULL,12,'小米净水器1A(厨下式)',1499,"http://127.0.0.1:3000/detail/pms_chushang-1.jpg",'http://127.0.0.1:3000/img/pms_chusshang-sml.jpg');
+INSERT INTO shop_list VALUES
+(NULL,12,'小米净水器(厨上式)',1499,"http://127.0.0.1:3000/detail/pms_chuxia.jpg",'http://127.0.0.1:3000/img/pms_chushang.jpg');
+INSERT INTO shop_list VALUES
+
+
+(NULL,12,'小米水质TDS检测笔',1499,"http://127.0.0.1:3000/detail/T1jiancebi.jpg",'http://127.0.0.1:3000/img/T1small.jpg');
+INSERT INTO shop_list VALUES
+(NULL,12,'小米净水器(厨下式)',1499,"http://127.0.0.1:3000/detail/pms_chuxiashi2.jpg",'http://127.0.0.1:3000/img/pms_chuaxia2saml.jpg');
+
+CREATE TABLE list_detail(
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    title VARCHAR(128),
+    point_d VARCHAR(128),
+    price BIGINT(20),
+    big_img VARCHAR(128),
+    small_img VARCHAR(128)
+);
+INSERT INTO list_detail VALUES(NULL,"小米净水器滤芯 PP棉"," 拦截5微米以上大颗粒 ／ 有效滤除泥沙颗粒、混浊物、铁锈等","59","http://127.0.0.1:3000/img/pms_RESHUIQI.jpg","http://127.0.0.1:3000/img/pms_RESHUIQI.jpg");
+
+INSERT INTO list_detail VALUES(NULL,"小米净水器滤芯 前置活性炭","进口椰壳活性炭 ／ 有效吸附异味、异色、余氯等","69","http://127.0.0.1:3000/detail/pms_2lvxin.jpg","http://127.0.0.1:3000/detail/smal.jpg");
+
+
+CREATE  TABLE phone_floor(
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    parent_id INT(20),
+    title VARCHAR(128),
+    point_d VARCHAR(128),
+    price BIGINT(20),
+    old_price BIGINT(20)  DEFAULT NULL,
+    img_url VARCHAR(128),
+    comment VARCHAR(428),
+    user_name VARCHAR(20),
+    sale BOOL
+);
+INSERT INTO phone_floor VALUES
+(NULL, 97,"小米8青春版4GB+64GB","潮流渐变色，2400万自拍旗舰版","1299",NULL,"http://127.0.0.1:3000/img/phonemi8.jpg","首先感谢快递小哥的速度真心好快呀。手机很好看 喜欢 大爱小米 也喜欢客服小姐姐～(￣▽￣～)~ 如果是个汉子就算了吧","想名字脑瓜子就疼",0);
+
+INSERT INTO phone_floor VALUES
+(NULL, 98,"小米8指纹版8GB+128GB","全球首款压感屏幕指纹，双频GPS超精...",3599,NULL"http://127.0.0.1:3000/img/mihong8.png","用着还不错，听说好评之后客服会给我当媳妇，是真的么？","大傻子",0);
+
+INSERT INTO phone_floor VALUES
+(NULL, 98,"小米8SE 4GB+64GB","AI 超感光双摄，三星 AMOLED 屏幕",1649,1799,"http://127.0.0.1:3000/img/mise.jpg","我不用说什么，在小米商城买不少手机，客服小妹能不能寄点小礼品什么的过来啊","梁嘉祥",1);
+
+INSERT INTO phone_floor VALUES
+(NULL,107,"小米MX 2S 8GB+64GB","骁龙845 年度旗舰处理器，艺术品般陶",3599,3999,"http://127.0.0.1:3000/img/mimx.jpg","喜欢小米的广告语，总相信美好的事情即将发生。生活中有快乐，有烦恼，有忧伤，要保持乐观的心态用心生活。支持小米","荣滨",1);
+
+INSERT INTO phone_floor VALUES
+(NULL,103,"小米6X 4GB+3GB","全索尼相机，骁龙660 AIE处理器",1649,1999,"http://127.0.0.1:3000/img/xiaomi6s.jpg","梦幻蓝，确实很酷炫很梦幻，颜值高，配置还不错，这个价格确实感动人心，价格厚道","都叫我霖啊",1);
+
+INSERT INTO phone_floor VALUES
+(NULL,102,"小米Max2 4GB+64GB","6.44''大屏，5300mAh 充电宝级的大电...",1599,1699,"http://127.0.0.1:3000/img/xiaomimax2.jpg","外观精美 很喜欢 玩游戏很好 感觉很好用 用了20来天 果断又去买了红色的给女朋友她很喜欢 也让我们的爱情更好 在此来感谢小米 祝您越来越好 生意兴隆","陈能文",1);
+
+INSERT INTO phone_floor VALUES
+(NULL,105,"小米MIX2 全陶瓷尊享版","全面屏2.0，Unibody 全陶瓷",2699,4699,"http://127.0.0.1:3000/img/max2taoci.jpg","期待已久 终于到货了 非常喜欢小米的手机 听说买手机送客服小姐姐 这是真的吗","蠢萌的你",1);
+
+INSERT INTO phone_floor VALUES
+(NULL,112,"红米S2 3GB+32GB","前置1600万超大像素智能美拍",999,NULL,"http://127.0.0.1:3000/img/hongmis2.jpg","一如既往的支持小米，即使客服从不回复我，也不影响我爱小米的心，客服虐我千百遍，我爱小米如初恋……",0);
