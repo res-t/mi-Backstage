@@ -36,4 +36,11 @@ router.get('/patch',(req,res)=>{
         res.send(result);
     })
 })
+router.get("/phonefloor",(req,res)=>{
+    var sql = "SELECT * FROM phone_floor";
+    pool.query(sql,(err,result)=>{
+        if (err) throw err;
+        res.send(result);
+    })
+})
 module.exports =router;
