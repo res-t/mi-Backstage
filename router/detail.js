@@ -25,6 +25,21 @@ router.get('/detail',(req,res)=>{
          }
        })
 })
+router.get("/shoplist",(req,res)=>{
+    var $pid = req.query.id;
+    var sql = "SELECT * FROM shop_list WHERE  parent_id=?"
+    pool.query(sql,[$pid],(err,result)=>{
+        res.send(result);
+    })
+})
+
+router.get("/listdetail",(req,res)=>{
+    var $id = req.query.id;
+    var sql = "SELECT * FROM list_detail WHERE id=?"
+    pool.query(sql,[$id],(err,result)=>{
+        res.send(result);
+    })
+})
 
 
 module.exports =router;
