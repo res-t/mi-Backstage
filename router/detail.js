@@ -40,6 +40,39 @@ router.get("/listdetail",(req,res)=>{
         res.send(result);
     })
 })
+router.post("/addcart",(req,res)=>{
+     //res.send("欢迎");
+     var $name = req.body.name;
+      if(!$name){
+          res.send({code:"401",msg:"未登录"})
+          return;
+      }
+     var $title = req.body.title;
+     var $price = req.body.price;
+     var $img = req.body.img;
+     console.log($name,$title,$price,$img);
+     var sql ="INSERT INTO user_cart VALUES(NULL,?,?,?,?,1)";
+     pool.query(sql,[$name,$title,$price,$img],(err,result)=>{
+          if(err) throw err;
+          res.send('添加成功');
+     })
+})
 
+router.get("/shopcart",(req,res)=>{
+    var $name = req.query.name;
+    var sql ="SELECT * FROM user_cart WHERE user_name=?"
+    pool.query(sql,[$name],(err,result)=>{
+         res.send(result);
+    })
+    
+})
+router.get("/del",(req,res)=>{
+    var $id = req.query.id;
+    var sql ="DELETE FROM user_cart WHERE id=?";
+    pool.query(sql,[$id],(err,result)=>{
+        if(err) throw err;
+      res.send("chengg");
+    })
+})
 
 module.exports =router;
