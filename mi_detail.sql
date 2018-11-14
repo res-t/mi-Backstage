@@ -169,7 +169,7 @@ INSERT INTO mi_detail VALUES(NULL,110,' 红米Note 5','红米国民品质，拍�
 
 
 }',
-'{
+'{ 
     "a":["http://127.0.0.1:3000/img/pm-deatil2.jpg","黑色"],
     "b":["http://127.0.0.1:3000/img/pm-deatil2.jpg","玫瑰金"],
     "c":["http://127.0.0.1:3000/img/pm-deatil2.jpg","金色"]
@@ -780,16 +780,17 @@ INSERT INTO shop_list VALUES
 INSERT INTO shop_list VALUES
 (NULL,13,'小米净水器滤芯 后置活性炭',69,"http://127.0.0.1:3000/detail/pms_69.jpg",'http://127.0.0.1:3000/img/pms_reshuqi!34x34.jpg');
 #热水器
+
 INSERT INTO shop_list VALUES
-(NULL,12,'小米净水器1A(厨下式)',1499,"http://127.0.0.1:3000/detail/pms_chushang-1.jpg",'http://127.0.0.1:3000/img/pms_chusshang-sml.jpg');
+(NULL,12,'小米净水器1A(厨下式)',1499,"http://127.0.0.1:3000/detail/pms_chushang-1.jpg",'http://127.0.0.1:3000/detail/pms_chusshang-sml.jpg');
 INSERT INTO shop_list VALUES
-(NULL,12,'小米净水器(厨上式)',1499,"http://127.0.0.1:3000/detail/pms_chuxia.jpg",'http://127.0.0.1:3000/img/pms_chushang.jpg');
+(NULL,12,'小米净水器(厨上式)',1499,"http://127.0.0.1:3000/detail/pms_chuxia.jpg",'http://127.0.0.1:3000/detail/pms_chushang.jpg');
 INSERT INTO shop_list VALUES
 
 
 (NULL,12,'小米水质TDS检测笔',1499,"http://127.0.0.1:3000/detail/T1jiancebi.jpg",'http://127.0.0.1:3000/img/T1small.jpg');
 INSERT INTO shop_list VALUES
-(NULL,12,'小米净水器(厨下式)',1499,"http://127.0.0.1:3000/detail/pms_chuxiashi2.jpg",'http://127.0.0.1:3000/img/pms_chuaxia2saml.jpg');
+(NULL,12,'小米净水器(厨下式)',1499,"http://127.0.0.1:3000/detail/pms_chuxiashi2.jpg",'http://127.0.0.1:3000/detail/pms_chuaxia2saml.jpg');
 
 CREATE TABLE list_detail(
     id INT PRIMARY KEY AUTO_INCREMENT,
@@ -839,3 +840,15 @@ INSERT INTO phone_floor VALUES
 
 INSERT INTO phone_floor VALUES
 (NULL,112,"红米S2 3GB+32GB","前置1600万超大像素智能美拍",999,NULL,"http://127.0.0.1:3000/img/hongmis2.jpg","一如既往的支持小米，即使客服从不回复我，也不影响我爱小米的心，客服虐我千百遍，我爱小米如初恋……",0);
+
+
+#购物车
+CREATE TABLE user_cart(
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    user_name VARCHAR(32) NOT NULL,
+    product_title VARCHAR(128),
+    product_price BIGINT(20),
+    product_img VARCHAR(128),
+    num INT 
+);
+INSERT INTO user_cart VALUES(NULL,"阳阳","电饭煲",299,"//i1.mifile.cn/a1/pms_1513822496.31335198!80x80.jpg",1);
