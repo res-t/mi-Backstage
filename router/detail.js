@@ -75,4 +75,16 @@ router.get("/del",(req,res)=>{
     })
 })
 
+/**模糊查询*/
+router.get('/search',(req,res)=>{
+    var $name = req.query.name;
+    var sql ='SELECT * FROM phone_floor WHERE title LIKE "%"?"%"';
+    pool.query(sql,$name,(err,result)=>{
+        console.log(sql);
+        console.log($name);
+        if(err) throw err;
+        res.send(result);
+    })
+})
 module.exports =router;
+//` SELECT * FROM phone_floor WHERE title LIKE "%${$name}%"`
