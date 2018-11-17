@@ -2,21 +2,17 @@ const express  = require("express");
 const pool = require("../pool");
 const router = express.Router();
 router.post("/reg",(req,res)=>{
-     console.log(req.body)
     var $country = req.body.myCountry;
-    console.log($country)
         if(!$country){
             $country="中国";
         }
     var $uname = req.body.uname;
-    console.log($uname)
         if(!$uname){ 
             res.send({code: '401',msg:'用户名不能为空'});
             //禁止程序继续执行
             return;
         }
     var $phone = req.body.myphone;
-    console.log($phone)
         if(!$phone){//手机验证
             res.send({code:'404',msg:'手机号不能为空'});
             return;
@@ -39,18 +35,21 @@ router.post("/reg",(req,res)=>{
     var mysql = "SELECT * FROM user_list WHERE phone=?"
     pool.query(mysql,[$phone],(err,result)=>{
         if(err) throw err;
-        if(result.length>1){
+		console.log(result)
+        if(result.length>0){
             res.send({code:403,msg:"手机号已注册"})
             return
-        }
+        }else{
+			 var sql = "INSERT INTO user_list VALUES(null,?,?,?,?,now())";
+			pool.query(sql,[$country,$uname,$phone,$upwd],(err,result)=>{
+			   if (err) throw err;
+			   console.log(result)
+			   res.send({code:200,msg:"注册成功"});
+			})
+		}
     })
     
-    var sql = "INSERT INTO user_list VALUES(null,?,?,?,?,now())";
-    pool.query(sql,[$country,$uname,$phone,$upwd],(err,result)=>{
-           if (err) throw err;
-           console.log(result)
-           res.send({code:200,msg:"注册成功"});
-    })
+   
 
 
 })
